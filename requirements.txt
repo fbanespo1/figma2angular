@@ -1,0 +1,15 @@
+streamlit==1.10.0
+openai==0.25.0
+
+
+angular==1.0.0
+ngx-cli==1.2.3
+
+unittest==0.23.1
+
+docker==6.0.1
+
+custom-compiler==0.1.0
+
+pylint==2.15.8
+autopep8==2.0.1
