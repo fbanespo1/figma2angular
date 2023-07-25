@@ -70,5 +70,3 @@ We welcome contributions and feedback!
 
 ![Screenshot 2023-07-24 at 8 52 51 PM](https://github.com/fbanespo1/figma2angular/assets/35040191/57205879-001f-42c5-84ff-21d8a970f50f)
 
-
-![Screenshot 2023-07-24 at 8 52 51 PM](https://github.com/fbanespo1/figma2angular/assets/35040191/57205879-001f-42c5-84ff-21d8a970f50f)
