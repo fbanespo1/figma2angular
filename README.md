@@ -1,4 +1,4 @@
-Figma to Angular Code Generator
+#Figma to Angular Code Generator
 This app allows generating Angular component code from a Figma design file. It uses the Figma API to extract components and OpenAI's GPT-3 to generate TypeScript code for those components.
 
 How it Works
