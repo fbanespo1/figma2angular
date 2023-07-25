@@ -1,5 +1,7 @@
 import streamlit as st
 import openai
+from config import OPENAI_API_KEY, FIGMA_API_KEY
+openai.api_key = OPENAI_API_KEY
 
 # Function to generate Angular code with GPT-3
 def generate_angular(components):
