@@ -1,7 +1,9 @@
 import streamlit as st
 import openai
-from config import OPENAI_API_KEY, FIGMA_API_KEY
-openai.api_key = OPENAI_API_KEY
+
+# Mock function to return sample components 
+def get_figma_components(file_name):
+  return ['Button', 'Input', 'Navbar']
 
 # Function to generate Angular code with GPT-3
 def generate_angular(components):
@@ -15,16 +17,15 @@ def generate_angular(components):
 
   return response.choices[0].text
 
-st.title("Figma to Angular Converter")
+st.title("Figma to Angular Converter") 
 
 # File upload
-figma_file = st.file_uploader("Upload Figma file") 
+figma_file = st.file_uploader("Upload Figma file")
 
 if figma_file:
-
   # Get components from Figma
   components = get_figma_components(figma_file.name)
-
+  
   # Generate Angular code
   code = generate_angular(components)
 
